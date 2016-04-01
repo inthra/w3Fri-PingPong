@@ -42,10 +42,10 @@ img {
   border-radius: 7px;
 }
 
-button {
-  margin: 5px;
-}
-
 label {
   margin-right: 7px;
+}
+
+form {
+  margin-bottom: 7px;
 }
