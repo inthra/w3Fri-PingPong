@@ -16,7 +16,7 @@
 
     <div class="container">
       <div class="row">
-        <div id="leftSideBox" class="col-md-3">
+        <div id="leftSideBox" class="col-sm-3">
           <h3>About Ping Pong</h3>
           <h4>Created by:</h4>
           <p>Inthrayuth Mahaphol</p>
@@ -26,7 +26,7 @@
           <p>JavaScript Arrays &amp Looping</p>
         </div>
 
-        <div id="rightSideBox" class="col-md-8">
+        <div id="rightSideBox" class="col-sm-9">
           <h2>Ping-Pong</h2>
           <h4>Rules:</h4>
           <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
@@ -37,14 +37,18 @@
             <li>Numbers divisible by 3 and 5 become "pingpong"</li>
           </ol>
 
-            <form id="blank">
-              <div class="form-group">
-                <label for="inputNum">Enter your number here:</label>
-                <input id="inputNum" type="text">
-              </div>
-              <button type="submit" class="btn btn-warning">Ping Pong!</button>
-            </form>
+          <form id="blank">
+            <div class="form-group">
+              <label for="inputNum">Enter your number here:</label>
+              <input id="inputNum" type="text">
+            </div>
+            <button type="submit" class="btn btn-warning col-sm-2">Ping Pong!</button>
+          </form>
+
+          <button id="reset" class="btn btn-default">Reset</button>
+          <hr>
           <ul id="answer"></ul>
+
         </div>
       </div>
     </div>

@@ -22,10 +22,8 @@ $(document).ready(function(){
     event.preventDefault();
 
     var rawNum = parseInt($("input#inputNum").val());
-    console.log(rawNum);
 
     for (i = 1; i <= rawNum; i += 1) {
-console.log(i);
       if (divisible3(i) && divisible5(i)) {
         $("#answer").append("<li>" + "pingpong" + "</li>");
       }

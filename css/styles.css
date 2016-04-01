@@ -3,14 +3,10 @@
   margin-top: 15px;
 }
 
-#lifeSideBox {
-
+button {
+  margin-right: 10px;
 }
 
-#rightSideBox {
-
-}
-
-#result {
-  display: none;
+label {
+  margin-right: 10px;
 }
