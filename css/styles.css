@@ -1,12 +1,51 @@
 .jumbotron {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
+  background-color: #cfabf5;
+}
+
+.row {
+  margin: 10px;
+}
+
+#leftSideBox {
+  background-color: #acf2da;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#rightSideBox {
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#result {
+  display: none;
+}
+
+#result #wrongInput {
+  display: none;
+  color: red;
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: 50px;
+  border-radius: 7px;
 }
 
 button {
-  margin-right: 10px;
+  margin: 5px;
 }
 
 label {
-  margin-right: 10px;
+  margin-right: 7px;
 }
