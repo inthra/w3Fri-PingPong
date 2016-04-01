@@ -4,9 +4,13 @@
 }
 
 #lifeSideBox {
-  padding-left: 10px;
+
 }
 
 #rightSideBox {
-  padding-left: 10px;
+
+}
+
+#result {
+  display: none;
 }
