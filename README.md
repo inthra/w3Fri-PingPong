@@ -1,5 +1,5 @@
 # Project: Ping-Pong
-**independent project for Epicodus, Apr 1, 2016**
+**Independent project for Epicodus, Apr 1, 2016**
 **HTML, bootstrap, JavaScrip, jQuery**
 **Arrays and Looping**
 
