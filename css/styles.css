@@ -30,9 +30,15 @@
   display: none;
 }
 
+#result #wrongNum {
+  display: none;
+  color: #ff2b75;
+  text-align: center;
+}
+
 #result #wrongInput {
   display: none;
-  color: red;
+  color: #ff5ed9;
   text-align: center;
 }
 

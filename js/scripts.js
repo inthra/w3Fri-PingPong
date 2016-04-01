@@ -15,8 +15,17 @@ var divisible5 = function(number) {
   }
 };
 
-var checkInput = function(test) {     // This function to check whether the input value is less than 1 or Not-A-Number
-  if (test < 1 || Number.isNaN(test)) {
+var checkNum = function(test) {     // Function to check input value is 0 or not
+  if (test < 1) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+var checkNotNumber = function(test) {     // Function to check input value is a Number
+  if (Number.isNaN(test)) {
     return true;
   }
   else {
@@ -32,13 +41,22 @@ $(document).ready(function(){
 
     var rawInput = parseInt($("input#inputNum").val());
 
-    if (checkInput(rawInput)){
+    if (checkNum(rawInput)) {
+      $("#wrongNum").show();
+      $("#wrongInput").hide();
       $("#answer").empty();
+      $("#result").show();
+    }
+    else if (checkNotNumber(rawInput)) {
       $("#wrongInput").show();
+      $("#wrongNum").hide();
+      $("#answer").empty();
       $("#result").show();
     }
     else {
+      $("#result").hide();
       $("#answer").empty();
+      $("#wrongNum").hide();
       $("#wrongInput").hide();
       for (i = 1; i <= rawInput; i += 1) {
         if (divisible3(i) && divisible5(i)) {
