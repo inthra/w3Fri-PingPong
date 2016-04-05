@@ -34,7 +34,7 @@ var checkNotNumber = function(test) {     // Function to check input value is a 
 };
 // End Business Logic Section
 
-// Start Interface Logic Section
+// Start User Interface Logic Section
 $(document).ready(function(){
   $("#blank").submit(function(event){
     event.preventDefault();
@@ -76,4 +76,4 @@ $(document).ready(function(){
     }
   });
 });
-// End Business Logic Section
+// End User Interface Logic Section
